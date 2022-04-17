@@ -32,7 +32,7 @@ while (continueLoop) // This is the loop to verify the user inputed the value I 
 //  input % 2 == 0 is an even number and input % 2 != 0 is odd.  ! means not.
 if (parsedUserInput % 2 != 0 && parsedUserInput < 60)
 {
-    Console.WriteLine($"{parsedUserInput} is Odd and less than 60");
+    Console.WriteLine($"{parsedUserInput} is Odd and less than 60 ");
 }
 // If the integer entered is even and in the inclusive range of 2 to 24, print “Even and less than 25.”
 else if (parsedUserInput % 2 == 0 && parsedUserInput < 25 && parsedUserInput > 1)
